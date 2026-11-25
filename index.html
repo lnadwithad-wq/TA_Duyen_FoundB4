@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#a77e8c">
+
+    <title>TA Duyên - English Challenges</title>
+    <link rel="icon" type="image/png" href="assets/my-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<div class="workspace">
+
+    <header class="toolbar">
+        <div class="brand">
+            <button id="menu" class="icon-button" type="button"
+                    aria-label="Menu"></button>
+            <button id="home" class="brand-name" type="button">
+                English Challenges
+            </button>
+        </div>
+
+        <nav id="nav" class="top-nav" aria-label="Main navigation"></nav>
+
+        <label class="search">
+            <span id="searchIcon"></span>
+            <input id="search" type="search"
+                   placeholder="Search..." aria-label="Search">
+        </label>
+
+        <button id="sound" class="icon-button" type="button"
+                aria-label="Toggle sound effects"></button>
+    </header>
+
+    <div id="layout" class="layout">
+        <aside id="sidebar">
+            <div class="side-label">CHALLENGES</div>
+            <nav id="challenges" aria-label="Challenges"></nav>
+        </aside>
+
+        <main id="main" tabindex="-1"></main>
+    </div>
+
+    <footer>
+        <span id="status" lang="vi" aria-live="polite">
+            Tiến độ và nội dung đã lưu được giữ trên trình duyệt này.
+        </span>
+    </footer>
+
+</div>
+
+<div id="toast" lang="vi" role="status" aria-live="polite"></div>
+
+</body>
+</html>
